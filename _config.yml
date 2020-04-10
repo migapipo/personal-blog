@@ -21,7 +21,7 @@ title: "Xiaoyu's Personal Website"
 description: "Graduate Software Developer"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://migapipo.github.io/personal-blog/
-logo: /images/Wanzi.jpeg"
+logo: /images/so-simple-site-logo.png
 date_format: "%Y-%m-%d"
 read_time: true
 words_per_minute: 200
