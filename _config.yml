@@ -21,7 +21,7 @@ title: "Xiaoyu's Personal Website"
 description: "Graduate Software Developer"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://migapipo.github.io/personal-blog/
-logo: /images/so-simple-site-logo.png
+logo: /images/author-photo.png
 date_format: "%Y-%m-%d"
 read_time: true
 words_per_minute: 200
@@ -93,14 +93,16 @@ defaults:
 # Site Author
 author: 
   name: Xiaoyu Sun  
-  picture: /images/me.jpg
+  picture: /images/author-photo.png
   email: sun.xiaoyu@foxmail.com
-  twitter:
+  twitter: Migapipo
   links:
-    - title:
-      url:
-      icon: 
-
+    - title: Twitter
+      url: https://twitter.com/Migapipo
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/migapipo
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
