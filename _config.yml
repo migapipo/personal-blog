@@ -109,3 +109,7 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+  - title: LinedIn
+    url: https://www.linkedin.com/in/xiaoyu-sun/
+    icon: fab fa-linkedin
+
