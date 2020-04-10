@@ -21,7 +21,7 @@ title: "Xiaoyu's Awesome Site"
 description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://migapipo.github.io/personal-blog/
-logo: /images/Wanzi.jpeg"
+logo: /_images/me.jpg"
 date_format: "%Y-%m-%d"
 read_time: true
 words_per_minute: 200
@@ -93,7 +93,7 @@ defaults:
 # Site Author
 author: 
   name: Xiaoyu Sun  
-  picture: /_images/Wanzi.jpeg
+  picture: /_images/me.jpg
   email: sun.xiaoyu@foxmail.com
   twitter:
   links:
