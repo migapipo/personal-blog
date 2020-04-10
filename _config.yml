@@ -91,9 +91,9 @@ defaults:
       
 
 # Site Author
-author: Xiaoyu Sun  
-  name: 
-  picture: 
+author: 
+  name: Xiaoyu Sun  
+  picture: /images/Wanzi.jpeg
   email: sun.xiaoyu@foxmail.com
   twitter:
   links:
