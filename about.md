@@ -25,4 +25,4 @@ Don't hesitate to contact me if you have any questions or you could just maybe d
 
 **My email:** <sun.xiaoyu@foxmail.com>
 
-**My LinkedIn Page:** <www.linkedin.com/in/xiaoyu-sun>
+**My LinkedIn Page:** <https://www.linkedin.com/in/xiaoyu-sun>
