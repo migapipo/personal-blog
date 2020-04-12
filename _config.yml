@@ -79,6 +79,12 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/ 
+    
 # Front Matter Defaults
 defaults:
   # Posts defaults
@@ -123,4 +129,4 @@ footer_links:
     url: https://www.linkedin.com/in/xiaoyu-sun/
     icon: fab fa-linkedin
 
-copyright: "This site is made by Xiaoyu@"
+copyright: "This site is made by Xiaoyu"
