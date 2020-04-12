@@ -19,7 +19,7 @@ skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Xiaoyu's Personal Website"
 description: "Graduate Software Developer"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: /
 url: https://migapipo.github.io/personal-blog/
 logo: /images/author-photo.png
 date_format: "%Y-%m-%d"
@@ -59,9 +59,9 @@ paginate_path: /page:num/
 # Search
 search_full_content: true # can have performance implications for large sites
 
-# Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
