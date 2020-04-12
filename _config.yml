@@ -34,11 +34,13 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: Migapipo
+# google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+
+# disqus:
+#   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+
+# twitter:
+#   username: Migapipo
 
 # Liquid
 liquid:
@@ -58,8 +60,8 @@ paginate_path: /page:num/
 search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -79,11 +81,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/ 
+# # Collections
+# collections:
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/ 
 
 # Front Matter Defaults
 defaults:
