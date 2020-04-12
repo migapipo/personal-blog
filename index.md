@@ -8,10 +8,10 @@ entries_layout: list
 
 
 
-layout: posts
-permalink: /_posts/
-limit: 10
-paginate: true
+# layout: posts
+# permalink: /_posts/
+# limit: 10
+# paginate: true
 
 ---
 
