@@ -6,12 +6,5 @@ paginate: true
 show_excerpts: true
 entries_layout: list
 
-
-
-# layout: posts
-# permalink: /_posts/
-# limit: 10
-# paginate: true
-
 ---
 
