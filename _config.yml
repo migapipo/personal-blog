@@ -17,11 +17,11 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
 locale: en-US
-title: "Xiaoyu's Personal Website"
-description: "Graduate Software Developer"
+title: Xiaoyu Sun | Graduate Software Developer 
+description: "Design-minded software engineer focused on building beautiful websites
 baseurl: /personal-blog/
 url: https://migapipo.github.io
-logo: /images/author-photo.png
+logo: https://migapipo.github.io/images/emojis/technologist.png
 date_format: "%Y-%m-%d"
 read_time: true
 words_per_minute: 200
