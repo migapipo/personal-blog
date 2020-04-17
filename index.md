@@ -14,9 +14,7 @@ posts_limit: 10
 Hello!   :wave:
 I'm **Xiaoyu Sun**, a design-minded graduate software engineer focused on building beautiful interfaces and perfect user experiences. :woman_technologist:
 
-Get in touch :handshake: xiaoyu.sun239@gmail.com
+Get in touch :handshake: <xiaoyu.sun239@gmail.com>
 
 
 
-
-—————————————————————————————————————————————————
