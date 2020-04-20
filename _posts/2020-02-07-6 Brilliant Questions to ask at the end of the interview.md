@@ -20,8 +20,7 @@ But most job candidates aren't equipped to ascertain this during the final stage
 
 So, when the offer comes, what if you went on the offense and struck back with some mind-blowing questions that would reveal whether this is truly the right company, or the right boss, for you long-term?
 
-Here are six questions to never forget asking from this point forward.
-
+w
 ## 1. "What qualities will I need in this role to be successful in your company culture?"
 
 A company culture may be defined by different buzz words like "mission-driven," or "entrepreneurial." But what does that mean exactly for your role, say, if you're a clerk in HR? What does "mission driven" mean to your role? By asking point-blank about the qualities needed for success in your role, rather than accepting the company-line, you turn the tables on the interviewer and force him or her to give you specific, job-related information applicable to your every-day role within that culture.
