@@ -11,11 +11,10 @@ tags:
 ---
 
 # React Learning Process Track
-## Day 1. 9/01/2020
+## Section 1: Intro 
 Started to learning React today. 
 
-
-## What is React? -  "A JavaScript Library for building User Interface" 
+### What is React? -  "A JavaScript Library for building User Interface" 
 
 Components for building User Interface (Header, Sidebar, Headline, Article Content). 
 
@@ -27,9 +26,16 @@ You can think components like Building Blocks. (Maybe you can see it as a Lego b
 - Reusable Code
 - Custom HTML elements
 
-## Day 2. 13/01/2019
-Code writing
+Code writing Tool: CodePen
 
-Tool: CodePen
+HTML, CSS, Javascript are the fundamental knowledge you need to know when you learn React. 
 
-HTML,CSS, Javascript Code 
+
+## Section 2: Refreshing Next Generation of JS
+
+var -> let & const
+
+let -> variable values
+const -> constant values
+
+
