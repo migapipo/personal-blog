@@ -33,9 +33,34 @@ HTML, CSS, Javascript are the fundamental knowledge you need to know when you le
 
 ## Section 2: Refreshing Next Generation of JS
 
+
+### 1. let & const
 var -> let & const
 
 let -> variable values
 const -> constant values
 
+### 2. Arrow Function
 
+No more issue with the *this* keyword.
+
+**Example 1:** 
+
+> const addNumbers = number => number + 5;
+> console.log(addNumbers(5));
+
+**Example 2:** 
+
+> const printName = name => {
+>  console.log(name);
+>}
+
+> printName('Migapipo');
+
+**Example 3:** 
+
+> const printInfo = (name,age) =>{
+  console.log(name,age);
+}
+
+> printInfo('Miga', 25);
