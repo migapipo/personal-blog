@@ -67,3 +67,31 @@ No more issue with the *this* keyword.
 
 ### 3. Exports & Imports
 
+1. person.js
+```javascript
+const person = {
+  name = 'Miga'
+}
+export default person
+```
+
+2. utility.js
+
+```javascript
+export const clean = () => {...} 
+export const baseData = 10;
+```
+
+3. app.js
+
+
+```javascript
+import person from './person.js'
+import prs from './person.js'
+// imports default and ONLY export of the file 
+
+
+import {clean} from './utility.js'
+import {baseData} from './utility.js'
+
+```
