@@ -86,12 +86,16 @@ export const baseData = 10;
 
 
 ```javascript
+// Default export
 import person from './person.js'
 import prs from './person.js'
 // imports default and ONLY export of the file 
 
 
+// Named export
 import {clean} from './utility.js'
 import {baseData} from './utility.js'
 
 ```
+
+*name* is defined by export
