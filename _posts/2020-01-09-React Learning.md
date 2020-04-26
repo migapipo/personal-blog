@@ -99,3 +99,8 @@ import {baseData} from './utility.js'
 ```
 
 *name* is defined by export
+
+
+
+### 4. Class
+
