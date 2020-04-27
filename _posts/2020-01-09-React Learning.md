@@ -104,3 +104,4 @@ import {baseData} from './utility.js'
 
 ### 4. Class
 
+Class of JS
