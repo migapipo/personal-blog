@@ -104,4 +104,21 @@ import {baseData} from './utility.js'
 
 ### 4. Class
 
-Class of JS
+*Class* 
+```javascript
+class Person{
+  name = 'Migapipo'   //Property: variables
+  call = () => {...}  //Method: functions 
+}
+
+
+```
+
+*Class Usage* 
+
+```javascript
+const myPerson = new Person()
+myPerson.call()
+console.log(myPerson.name)
+
+```
