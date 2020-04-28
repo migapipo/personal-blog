@@ -49,12 +49,13 @@ No more issue with the *this* keyword.
   console.log(addNumbers(5));
 
 **Example 2:** 
+```javascript
+ const printName = name => {
+  console.log(name);
+}
 
-> const printName = name => {
->  console.log(name);
->}
-
-> printName('Migapipo');
+printName('Migapipo');
+```
 
 **Example 3:** 
 
@@ -67,6 +68,7 @@ No more issue with the *this* keyword.
 ### 3. Exports & Imports
 
 1. person.js
+
 ```javascript
 const person = {
   name = 'Miga'
