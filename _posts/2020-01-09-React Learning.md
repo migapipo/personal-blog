@@ -70,7 +70,7 @@ printInfo('Miga', 25);
 
 ### 3. Exports & Imports
 
-1. person.js
+#### Example 1. person.js
 
 ```javascript
 const person = {
@@ -79,15 +79,14 @@ const person = {
 export default person
 ```
 
-2. utility.js
+#### Example 2. utility.js
 
 ```javascript
 export const clean = () => {...} 
 export const baseData = 10;
 ```
 
-3. app.js
-
+#### Example 3. app.js
 
 ```javascript
 // Default export
@@ -100,7 +99,6 @@ import prs from './person.js'
 import {clean} from './utility.js'
 import {baseData} from './utility.js'
 ```
-
 **name** is defined by export
 
 
