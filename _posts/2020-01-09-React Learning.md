@@ -99,7 +99,6 @@ import prs from './person.js'
 // Named export
 import {clean} from './utility.js'
 import {baseData} from './utility.js'
-
 ```
 
 **name** is defined by export
