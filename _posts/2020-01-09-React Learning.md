@@ -105,7 +105,7 @@ import {baseData} from './utility.js'
 
 
 
-### 4. Class
+### 4. Understanding Classes
 
 #### *Class* 
 ```javascript
@@ -160,3 +160,7 @@ const person = new Person();
 person.printMyname();
 person.printGender();
 ```
+
+
+### 5. Classes, Properties & Methods
+
