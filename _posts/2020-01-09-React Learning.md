@@ -153,7 +153,6 @@ class Person extends Human{
   }
 }
 
-
 const person = new Person();
 person.printMyname();
 person.printGender();
