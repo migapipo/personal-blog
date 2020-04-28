@@ -45,12 +45,14 @@ No more issue with the *this* keyword.
 
 **Example 1:** 
 
-> const addNumbers = number => number + 5;
+```javascript
+  const addNumbers = number => number + 5;
   console.log(addNumbers(5));
+```
 
 **Example 2:** 
 ```javascript
- const printName = name => {
+  const printName = name => {
   console.log(name);
 }
 
@@ -58,12 +60,13 @@ printName('Migapipo');
 ```
 
 **Example 3:** 
-
-> const printInfo = (name,age) =>{
+```javascript
+  const printInfo = (name,age) =>{
   console.log(name,age);
 }
 
-> printInfo('Miga', 25);
+printInfo('Miga', 25);
+```
 
 ### 3. Exports & Imports
 
