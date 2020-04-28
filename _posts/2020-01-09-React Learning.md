@@ -128,3 +128,39 @@ console.log(myPerson.name)
 ```javascript
 class Person extends Master
 ```
+
+
+
+Classes are blueprints for js objects.
+
+
+```javascript
+
+
+class Human{
+  constructor(){
+    this.gender = 'female';
+  }
+  printGender(){
+    console.log(this.gender);
+  }
+  
+}
+class Person extends Human{
+  constructor(){
+    super();
+    this.name = 'Miga';
+    this.gender ='male';
+  }
+  
+  printMyname(){
+    console.log(this.name);
+  }
+}
+
+
+const person = new Person();
+person.printMyname();
+person.printGender();
+
+```
