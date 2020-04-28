@@ -102,7 +102,7 @@ import {baseData} from './utility.js'
 
 ```
 
-*name* is defined by export
+**name** is defined by export
 
 
 
@@ -114,8 +114,6 @@ class Person{
   name = 'Migapipo'   //Property: variables
   call = () => {...}  //Method: functions 
 }
-
-
 ```
 
 #### *Class Usage* (Constructor Functions)
@@ -124,7 +122,6 @@ class Person{
 const myPerson = new Person()
 myPerson.call()
 console.log(myPerson.name)
-
 ```
 
 #### *Inheritance*
@@ -134,13 +131,10 @@ class Person extends Master
 ```
 
 
-
 Classes are blueprints for js objects.
 
 
 ```javascript
-
-
 class Human{
   constructor(){
     this.gender = 'female';
@@ -166,5 +160,4 @@ class Person extends Human{
 const person = new Person();
 person.printMyname();
 person.printGender();
-
 ```
