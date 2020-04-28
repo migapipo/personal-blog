@@ -104,7 +104,7 @@ import {baseData} from './utility.js'
 
 ### 4. Class
 
-*Class* 
+#### *Class* 
 ```javascript
 class Person{
   name = 'Migapipo'   //Property: variables
@@ -114,11 +114,17 @@ class Person{
 
 ```
 
-*Class Usage* 
+#### *Class Usage* (Constructor Functions)
 
 ```javascript
 const myPerson = new Person()
 myPerson.call()
 console.log(myPerson.name)
 
+```
+
+#### *Inheritance*
+
+```javascript
+class Person extends Master
 ```
