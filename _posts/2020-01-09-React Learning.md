@@ -12,7 +12,6 @@ tags:
 
 # React Learning Process Track
 ## Section 1: Intro 
-Started to learning React today. 
 
 ### What is React? -  "A JavaScript Library for building User Interface" 
 
@@ -47,7 +46,7 @@ No more issue with the *this* keyword.
 **Example 1:** 
 
 > const addNumbers = number => number + 5;
-> console.log(addNumbers(5));
+  console.log(addNumbers(5));
 
 **Example 2:** 
 
