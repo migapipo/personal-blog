@@ -182,6 +182,35 @@ myMethod(){...}
 ```
 
 **ES7**
+**Arrow Function**
 ```javascript
 myMethod = () => {...} 
+```
+
+
+
+Let's go back to the example we made in the last part of the course. They look like this right now: 
+```javascript
+class Human{
+  gender = 'female';
+  
+  printGender=()=>{
+    console.log(this.gender);
+  }
+  
+}
+class Person extends Human{
+    name = 'Miga';
+    gender ='male';
+  }
+  
+  printMyname=()=>{
+    console.log(this.name);
+  }
+}
+
+
+const person = new Person();
+person.printMyname();
+person.printGender();
 ```
