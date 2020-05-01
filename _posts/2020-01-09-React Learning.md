@@ -184,20 +184,19 @@ myMethod(){...}
 ```
 
 **ES7**
+
 **Arrow Function**
 ```javascript
 myMethod = () => {...} 
 ```
 
-
-
 Let's go back to the example we made in the last part of the course. They look like this right now: 
 ```javascript
 class Human{
-  gender = 'female';
+  gender = 'female';   // easier to cliam a variable
   
   printGender=()=>{
-    console.log(this.gender);
+    console.log(this.gender); // still need to keep "this" referring to the variable
   }
   
 }
