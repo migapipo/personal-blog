@@ -161,3 +161,10 @@ person.printGender();
 
 ### 5. Classes, Properties & Methods
 
+| Properties    | Methods           
+| ------------- |:-------------:| 
+| Variables     | Functions     | 
+| ES6    |
+| constructor(){this.myProperty ='value'} | myMethod(){...}      |
+| ES7    |
+| myProperty ='value' | myMethod = () => {...}      |
