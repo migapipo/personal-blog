@@ -169,10 +169,12 @@ constructor(){
   this.myProperty ='value'
   }
 ```
+
 **ES7**
 ```javascript
 myProperty ='value' 
 ```
+---
 
 #### Methods : Functions 
 
@@ -214,3 +216,7 @@ const person = new Person();
 person.printMyname();
 person.printGender();
 ```
+
+
+### 6. Spread & Reset Operators
+
