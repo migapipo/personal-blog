@@ -161,7 +161,7 @@ person.printGender();
 
 ### 5. Classes, Properties & Methods
 
-#### Properties : Variables 
+- **Properties : Variables**
 
 **ES6**
 ```javascript
@@ -176,7 +176,7 @@ myProperty ='value'
 ```
 ---
 
-#### Methods : Functions 
+- **Methods : Functions**
 
 **ES6**
 ```javascript
@@ -196,7 +196,7 @@ class Human{
   gender = 'female';   // easier to cliam a variable
   
   printGender =() => {
-    console.log(this.gender); // still need to keep "this" referring to the variable
+    console.log(this.gender); // still need to keep "this" keyword referring to the variable
   }
   
 }
