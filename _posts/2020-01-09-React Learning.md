@@ -195,7 +195,7 @@ Let's go back to the example we made in the last part of the course. They look l
 class Human{
   gender = 'female';   // easier to cliam a variable
   
-  printGender=()=>{
+  printGender =() => {
     console.log(this.gender); // still need to keep "this" referring to the variable
   }
   
@@ -205,7 +205,7 @@ class Person extends Human{
     gender ='male';
   }
   
-  printMyname=()=>{
+  printMyname =() => {
     console.log(this.name);
   }
 }
