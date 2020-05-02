@@ -219,3 +219,8 @@ person.printGender();
 
 ### 6. Spread & Reset Operators
 
+### ...
+#### Spread
+Used to split up array elements OR object properties
+#### Rest
+Used to merge a list of function arguments into an array 
