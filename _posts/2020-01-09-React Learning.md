@@ -219,29 +219,78 @@ person.printGender();
 
 ### 6. Spread & Reset Operators
 
-### ...
-#### Spread
+### Three Dots ... 
+#### 1. Spread
 Used to split up array elements OR object properties
+```
+const newArray = [...oldArray, 1, 2]
+const newObject = (...oldObject, newProp:5)
+```
 
-#### Example: 
-
+#### Example-1: 
 ```javascript
 const numbers = [1, 2, 3];
 const newNumbers = [...numbers, 4];
 
 console.log(newNumbers);
 ```
-#### Example Output:
+#### Example-1 Output:
 ```
 [1, 2, 3, 4]
 ```
 
-#### Rest
+#### Example-2: 
+```javascript
+const person = {
+  name = 'Miga'
+};
+
+const newPerson ={
+  ...person,
+  age: 25
+
+}
+
+console.log(newPerson);
+```
+#### Example-2 Output:
+```
+[object Object] {
+  age: 25,
+  name: "Miga"
+}
+
+```
+
+:question: Question:  I couldn't get this result when I was trying the same code, not sure why it couldn't work. 
+
+Also, I am wondering why the name has appended at the end? 
+
+
+
+
+#### 2. Rest
 Used to merge a list of function arguments into an array 
 
+```
+function soryArgs(...args){
+  return args.sort()
+}
+```
+
+#### Example: 
  ```javascript
 const numbers = [1, 2, 3];
 const newNumbers = [...numbers, 4];
 
 console.log(newNumbers);
+```
+
+
+
+#### Three Equals === 
+Check for type and value equality
+
+```
+el === 1
 ```
