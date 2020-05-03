@@ -222,5 +222,26 @@ person.printGender();
 ### ...
 #### Spread
 Used to split up array elements OR object properties
+
+#### Example: 
+
+```javascript
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4];
+
+console.log(newNumbers);
+```
+#### Example Output:
+```
+[1, 2, 3, 4]
+```
+
 #### Rest
 Used to merge a list of function arguments into an array 
+
+ ```javascript
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4];
+
+console.log(newNumbers);
+```
