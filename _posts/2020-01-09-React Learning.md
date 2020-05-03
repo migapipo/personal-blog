@@ -259,14 +259,59 @@ console.log(newPerson);
   age: 25,
   name: "Miga"
 }
-
 ```
 
-:question: Question:  I couldn't get this result when I was trying the same code, not sure why it couldn't work. 
+:question: Question Time: Why the name has appended at the end? 
 
-Also, I am wondering why the name has appended at the end? 
+I tried more Examples to figure this out. 
+
+#### Example-3: 
+```javascript
+const person = {
+  name : 'Miga'
+};
+
+const newPerson ={
+  person,
+  age: 25
+}
+
+console.log(newPerson);
+```
+#### Example-3 Output:
+```
+[object Object] {
+  age: 25,
+  person: [object Object] {
+    name: "Miga"
+  }
+}
+```
 
 
+
+#### Example-4: 
+```javascript
+const person = {
+  name : 'Miga'
+};
+
+const newPerson ={
+  ...person,
+  age: 25,
+  height:160
+}
+
+console.log(newPerson);
+```
+#### Example-4 Output:
+```
+[object Object] {
+  age: 25,
+  height: 160,
+  name: "Miga"
+}
+```
 
 
 #### 2. Rest
@@ -280,13 +325,17 @@ function soryArgs(...args){
 
 #### Example: 
  ```javascript
-const numbers = [1, 2, 3];
-const newNumbers = [...numbers, 4];
+const filter = (...args) => {
+  return args.filter(el => el === 1);
+}
 
-console.log(newNumbers);
+console.log(filter(1, 2, 3));
 ```
 
-
+#### Example Output: 
+```
+[1]
+```
 
 #### Three Equals === 
 Check for type and value equality
