@@ -288,8 +288,6 @@ console.log(newPerson);
 }
 ```
 
-
-
 #### Example-4: 
 ```javascript
 const person = {
@@ -343,3 +341,6 @@ Check for type and value equality
 ```
 el === 1
 ```
+
+
+### 7. Destructuring
