@@ -384,4 +384,9 @@ console.log(num1,num3);
 ```
 
 **Output**
+```
+1
+3
+```
+
 
