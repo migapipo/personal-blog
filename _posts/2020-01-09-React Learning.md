@@ -348,4 +348,19 @@ Destructuring : Easily extract array elements or objects properties and store th
 
 It might sound like ```spead```. But ```spead``` takes out all properties and distributes them in a new array or object or wherever you are using it. 
 
-Destructuring allows you to pull out single elements or properties and store them in variables for arrays
+Destructuring allows you to pull out single elements or properties and store them in variables for arrays & objects.
+
+```javascript
+[a,b] = ['Hello', 'Miga']
+console.log(a) // Hello
+console.log(b) // Miga  
+```
+
+
+```javascript
+{name} = {name:'Miga', age: 25}
+console.log(name) // Miga
+console.log(age) // Undefined --  Because we didn't pull the age out of the object here  
+```
+
+
