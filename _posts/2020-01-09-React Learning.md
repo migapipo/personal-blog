@@ -369,14 +369,19 @@ console.log(age) // Undefined --  Because we didn't pull the age out of the obje
 ```javascript
 const numbers = [1, 2, 3];
 [num1,num2] = numbers;
-console.log(num1) // 1
-console.log(num2) // 2  
+console.log(num1,num2);
+```
+**Output**
+```
+1
+2
 ```
 If I want to get num1 and num3, I don't need to rename it. 
 ```javascript
 const numbers = [1, 2, 3];
-[num1,num2] = numbers;
-console.log(num1) // 1
-console.log(num2) // 2  
+[num1, , num3] = numbers;
+console.log(num1,num3);
 ```
+
+**Output**
 
