@@ -350,17 +350,33 @@ It might sound like ```spead```. But ```spead``` takes out all properties and di
 
 Destructuring allows you to pull out single elements or properties and store them in variables for arrays & objects.
 
+
+#### 7.1 Array Destructuring
 ```javascript
 [a,b] = ['Hello', 'Miga']
 console.log(a) // Hello
 console.log(b) // Miga  
 ```
 
-
+#### 7.2 Object Destructuring
 ```javascript
 {name} = {name:'Miga', age: 25}
 console.log(name) // Miga
 console.log(age) // Undefined --  Because we didn't pull the age out of the object here  
 ```
 
+#### Example
+```javascript
+const numbers = [1, 2, 3];
+[num1,num2] = numbers;
+console.log(num1) // 1
+console.log(num2) // 2  
+```
+If I want to get num1 and num3, I don't need to rename it. 
+```javascript
+const numbers = [1, 2, 3];
+[num1,num2] = numbers;
+console.log(num1) // 1
+console.log(num2) // 2  
+```
 
