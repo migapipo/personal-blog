@@ -344,3 +344,8 @@ el === 1
 
 
 ### 7. Destructuring
+Destructuring : Easily extract array elements or objects properties and store them in variables.
+
+It might sound like ```spead```. But ```spead``` takes out all properties and distributes them in a new array or object or wherever you are using it. 
+
+Destructuring allows you to pull out single elements or properties and store them in variables for arrays
