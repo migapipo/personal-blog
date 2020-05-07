@@ -390,3 +390,13 @@ console.log(num1,num3);
 ```
 
 
+### 8. Reference and Primitive Types
+##### Primitvie Types: 
+- Numbers
+- Strings
+- Booleans
+
+##### Reference Types: 
+- Objects
+- Arrays
+
