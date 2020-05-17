@@ -47,3 +47,18 @@ similar to html syntax
 
 </html>
 ```
+
+
+
+
+# Create First File 
+
+index.php
+
+Typically an Apache installation will take a index.php and a index.html file as default files to be loaded inside a folder.  
+
+It will automatically go to the index.php when you access the folder.
+
+index.php & a index.html are default specified in an Apache configuration. Normal files are not named to open by default.
+
+
