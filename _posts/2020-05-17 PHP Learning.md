@@ -178,3 +178,48 @@ try {
 $conn = null;
 ?> 
 ```
+
+
+## MySQL Insert Data by PDO
+
+**Note:** If a column is AUTO_INCREMENT (like the "id" column) or TIMESTAMP with default update of current_timesamp (like the "reg_date" column), it is no need to be specified in the SQL query; MySQL will automatically add the value.
+
+After a database and a table have been created, we can start adding data in them.
+
+Here are some syntax rules to follow:
+
+  - The SQL query must be quoted in PHP
+  - String values inside the SQL query must be quoted
+  - Numeric values must not be quoted
+  - The word NULL must not be quoted
+
+The INSERT INTO statement is used to add new records to a MySQL table:
+```
+INSERT INTO table_name (column1, column2, column3,...)
+VALUES (value1, value2, value3,...) 
+```
+
+```php
+ <?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "myDBPDO";
+
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $sql = "INSERT INTO MyGuests (firstname, lastname, email)
+  VALUES ('John', 'Doe', 'john@example.com')";
+  // use exec() because no results are returned
+  $conn->exec($sql);
+  echo "New record created successfully";
+} catch(PDOException $e) {
+  echo $sql . "<br>" . $e->getMessage();
+}
+
+$conn = null;
+?> 
+```
+
