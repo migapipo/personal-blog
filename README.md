@@ -1,5 +1,6 @@
 # Personal Website built on so-simple theme
 
+Jekyll Website
 
 **Blog Link: https://migapipo.github.io/personal-blog/**
 
