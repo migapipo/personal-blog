@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Questions to Ask in the Interview
+title: 6 Questions to Ask in the Interview
 
 
 categories:
