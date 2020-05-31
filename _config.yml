@@ -40,9 +40,6 @@ google_fonts:
 # disqus:
 #   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 
-# twitter:
-#   username: Migapipo
-
 # Liquid
 liquid:
   error_mode: strict
