@@ -324,7 +324,7 @@ function soryArgs(...args){
 #### Example: 
  ```javascript
 const filter = (...args) => {
-  return args.filter(el => el === 1);
+  return args.filter(el => el === 1);  // three equals: Checks for type and value equality
 }
 
 console.log(filter(1, 2, 3));
@@ -336,7 +336,7 @@ console.log(filter(1, 2, 3));
 ```
 
 #### Three Equals === 
-Check for type and value equality
+Checks for type and value equality
 
 ```
 el === 1
@@ -402,4 +402,25 @@ console.log(num1,num3);
 
 
 
+#### Example
+```javascript
+const person = {
+  name: 'Miga';
+};
+const secondPerson = person;
+person.name = 'Hello';
+console.log(secondPerson);
+```
+**Output**
+```javascript
+[object Object]{
+  name: 'miga';
+}
+```
+When I copied the person, it just copied the pointer and points to the exact same object in memory as person does. So if we change name on person, we automatically change it for secondPerson. It is the same for arrays. If you "copy" an array like this, and then you then change an array element. It will all change in the so-called copied array.
 
+This will become important in React because it can lead to unexpected behaviors.
+If you copy objects or arrays like this because you then may manipulate one object in one place in the app and accidentally manipulate another usage of the same object in another place of the app. Therefore we will learn techniques to copy this in an immutable way which means we copy that by really copying the object and not just a pointer for that we can use this spread operator.
+
+Now we can simply create a new person object here and spread the person properties.This will pull out the properties and the values of the properties from the object and add it to this
+newly created object. 
